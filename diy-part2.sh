@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/10.10.10.6/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.196.1.222/g' package/base-files/files/bin/config_generate
 
 #'godproxy'
 # rm -rf package/lean/luci-app-godproxy
